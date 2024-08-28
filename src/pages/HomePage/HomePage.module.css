@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 696px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("../../img/hompageBacground.png");
+}
+@media screen and (min-resolution: 192dpi) {
+  .container {
+    background-image: url("../../img/hompageBacground@2x.png");
+  }
+}
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 64px;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.66667;
+  color: var(--inputs);
+}
+.text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: var(--inputs);
+}
+.button {
+  width: 173px;
+  height: 56px;
+  background-color: var(--button);
+
+  color: var(--white);
+}
+.button:hover {
+  background-color: var(--button-hover);
+}
