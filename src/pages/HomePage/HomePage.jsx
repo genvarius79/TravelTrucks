@@ -1,5 +1,6 @@
 import Button from "../../components/Button.jsx";
 import css from "./HomePage.module.css";
+import { NavLink } from "react-router-dom";
 const HomePage = () => {
   const handleClick = () => {};
   return (
@@ -11,9 +12,12 @@ const HomePage = () => {
             You can find everything you want in our catalog
           </p>
         </div>
-        <Button className={css.button} type="button" onClick={handleClick}>
+        {/* <Button className={css.button} type="button" onClick={handleClick}>
           View Now
-        </Button>
+        </Button> */}
+        <NavLink className={css.button} to="/catalog">
+          View Now
+        </NavLink>
       </div>
     </div>
   );

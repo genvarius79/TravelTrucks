@@ -37,8 +37,21 @@
   width: 173px;
   height: 56px;
   background-color: var(--button);
-
   color: var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 200px;
+  padding: 16px 0;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  padding: 0;
 }
 .button:hover {
   background-color: var(--button-hover);

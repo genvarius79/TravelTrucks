@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--main);
+}
+.active {
+  color: var(--button-hover);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
