@@ -1,4 +1,4 @@
-import Button from "../../components/Button.jsx";
+import Button from "../../components/Button/Button.jsx";
 import css from "./HomePage.module.css";
 import { NavLink } from "react-router-dom";
 const HomePage = () => {
