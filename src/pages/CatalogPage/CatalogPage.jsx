@@ -14,11 +14,11 @@ const CatalogPage = () => {
   }, [dispatch]);
 
   return (
-    <>
+    <div className={css.CatalogPageContainer}>
       <CamperList />
       {isLoading && <Loader />}
       {isError && <ErrorMessage />}
-    </>
+    </div>
   );
 };
 export default CatalogPage;

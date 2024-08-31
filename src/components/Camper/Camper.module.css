@@ -1,0 +1,120 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+  padding: 24px;
+  width: 888px;
+  height: 368px;
+  background: var(--white);
+}
+.cardWrapper {
+  display: flex;
+  gap: 24px;
+  width: 840px;
+  height: 320px;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 524px;
+  height: 320px;
+}
+.nameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-wrap: nowrap;
+}
+.iconRating {
+  width: 16px;
+  height: 16px;
+  fill: var(--rating);
+}
+.iconLocation {
+  width: 16px;
+  height: 16px;
+  fill: var(--main);
+}
+.ratingSubWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+}
+.ratingSubWrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: var(--main);
+}
+.text {
+  color: var(--main);
+}
+.description {
+  color: var(--text);
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.textBould {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: var(--main);
+}
+.ratingWrapper {
+  display: flex;
+  gap: 16px;
+}
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.equipmentContainer {
+  display: flex;
+  height: 104px;
+  gap: 8px;
+}
+.iconEquipment {
+  width: 20px;
+  height: 20px;
+  fill: var(--main);
+}
+.iconHeart {
+  width: 20px;
+  height: 20px;
+  fill: var(--main);
+}
+.priceWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.image {
+  border-radius: 10px;
+  width: 292px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.button {
+  background-color: var(--button);
+  color: var(--white);
+  width: 166px;
+  height: 56px;
+}
+.btnHeart {
+  border: none;
+  background-color: transparent;
+}

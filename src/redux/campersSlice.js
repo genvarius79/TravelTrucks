@@ -30,7 +30,7 @@ export const selectFilteredCampers = createSelector(
   [selectCampers, selectFilter],
   (campers, filter) => {
     return campers.filter((camper) =>
-      camper.name.toLowerCase().includes(filter.toLowerCase())
+      camper.location.toLowerCase().includes(filter.toLowerCase())
     );
   }
 );

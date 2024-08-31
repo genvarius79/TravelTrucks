@@ -1,0 +1,108 @@
+.filterInputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--gray);
+}
+.svgWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 12px;
+  padding: 18px 20px 18px 20px;
+  width: auto;
+  background: var(--inputs);
+}
+.input {
+  border: none;
+  background: var(--inputs);
+  outline: none;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main);
+}
+
+.inputIcon {
+  width: 20px;
+  height: 20px;
+  fill: var(--main);
+}
+.inputIconNotSearched {
+  width: 20px;
+  height: 20px;
+  fill: var(--gray);
+}
+.lableFilters {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  margin-top: 40px;
+}
+.equipmentWrapper {
+  margin-top: 32px;
+}
+.lableChoice {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main);
+}
+.lineIcon {
+  stroke-width: 1px;
+  stroke: var(--gray-light);
+  height: 2px;
+  margin-top: 24px;
+}
+.choiceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 9px;
+  row-gap: 8px;
+  margin-top: 24px;
+}
+.checkbox {
+  border: 1px solid var(--gray-light);
+  border-radius: 12px;
+  width: 112px;
+  height: 96px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.iconChoice {
+  width: 32px;
+  height: 32px;
+}
+.textChoice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--main);
+}
+
+.checkbox:hover,
+.checkbox:checked {
+  border: 1px solid var(--button);
+}
+.sendButton {
+  background-color: var(--button);
+  color: var(--white);
+  width: 166px;
+  height: 56px;
+  margin-top: 40px;
+}

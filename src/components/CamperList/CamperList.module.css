@@ -1,5 +1,14 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 64px;
+  margin-top: 48px;
+}
 .list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
