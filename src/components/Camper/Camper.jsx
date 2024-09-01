@@ -1,5 +1,6 @@
 import css from "./Camper.module.css";
 import Button from "../Button/Button.jsx";
+import { NavLink } from "react-router-dom";
 import icon from "../../img/icons.svg";
 import EquipmentElement from "../EquipmentElement/EquipmentElement.jsx";
 
@@ -18,6 +19,9 @@ export default function Camper({
     AC,
   },
 }) {
+  const handleClick = (event) => {
+    console.log({ event });
+  };
   return (
     <div className={css.cardContainer}>
       <div className={css.cardWrapper}>
@@ -97,9 +101,12 @@ export default function Camper({
               </EquipmentElement>
             ) : null}
           </div>
-          <Button className={css.button} type="button">
+          {/* <Button className={css.button} type="button" onClick={handleClick}>
             Show more
-          </Button>
+          </Button> */}
+          <NavLink className={css.button} to="/catalog/:id">
+            View Now
+          </NavLink>
         </div>
       </div>
     </div>
